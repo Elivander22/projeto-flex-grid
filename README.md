@@ -24,7 +24,6 @@ Você pode visualizar o projeto publicado via **GitHub Pages** pelo link:
 ## 🚀 Funcionalidades
 
 - Layout 100% responsivo
-- Navegação entre páginas HTML
 - Uso de Flexbox e Grid para organização dos elementos
 - Seção de contato com formulário estilizado
 - Design minimalista com fundo branco e texto escuro
@@ -61,15 +60,19 @@ projeto-flex-grid/
 
 ## 🛠️ Como Clonar e Rodar Localmente
 
-```bash
+---
+
 # Clone o repositório
 git clone https://github.com/Elivander22/projeto-flex-grid.git
+
+---
 
 # Acesse a pasta
 cd projeto-flex-grid
 
 # Abra o index.html no navegador
 
+---
 
 ## 🔧 Melhorias Futuras
  Adicionar animações com CSS
@@ -80,9 +83,13 @@ cd projeto-flex-grid
 
 ## 👤 Autor
 Elivander22
+
 ---
+
 GitHub: @Elivander22
+
 ---
+
 ## 📜 Licença
 Este projeto está licenciado sob a MIT License.
 
