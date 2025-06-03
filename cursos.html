@@ -1,11 +1,93 @@
-<!DOCTYPE html>
 <html lang="br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
+    <title>Meu Site de Cursos</title>
+    <link rel="stylesheet" href="assets/style.css"/>
 </head>
+
 <body>
-    <h1>Cursos</h1>
+    <header>
+        <div class="logo"><b>Flex & Grid Academy</b></div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- 2. Seção Hero -->
+
+<section class="hero">
+
+        <h1>Cursos Online</h1>
+  <p class="subtitulo">Aprimore suas habilidades com nossos cursos completos de HTML, CSS, Grid e Flexbox.</p>
+
+  <div class="grade-cursos">
+
+    <!-- Curso 1 -->
+    <div class="card-curso">
+      <img src="img/cursos/flex.png" alt="Curso HTML do Zero">
+      <h3>HTML do Zero <span class="tag iniciante">Iniciante</span></h3>
+      <ul>
+        <li>Estrutura básica de páginas</li>
+        <li>Elementos semânticos</li>
+        <li>Formulários e tabelas</li>
+      </ul>
+      <button class="botao">Começar Curso</button>
+    </div>
+
+    <!-- Curso 2 -->
+    <div class="card-curso">
+      <img src="img/cursos/grid.png" alt="Curso CSS Grid">
+      <h3>CSS Grid Avançado <span class="tag intermediario">Intermediário</span></h3>
+      <p>Aprenda a dominar o layout com linhas e colunas em CSS Grid.</p>
+      <div class="botoes-secundarios">
+        <span class="tag">Auto Placement</span>
+        <span class="tag">Named Areas</span>
+      </div>
+      <button class="botao">Começar Curso</button>
+    </div>
+
+    <!-- Curso 3 -->
+    <div class="card-curso">
+      <img src="img/cursos/html.png" alt="Curso Flexbox">
+      <h3>Flexbox na Prática <span class="tag avancado">Avançado</span></h3>
+      <p>Entenda e aplique todos os conceitos do Flexbox com exemplos reais.</p>
+      <blockquote>"Flexbox mudou minha forma de organizar componentes na tela" – Aluno Satisfeito</blockquote>
+      <button class="botao">Começar Curso</button>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+  <div class="faq-container">
+    <div class="faq-card">
+      <h3>Preciso ter conhecimento prévio?</h3>
+      <p>Não! Os cursos cobrem desde os fundamentos até tópicos avançados.</p>
+    </div>
+    <div class="faq-card">
+      <h3>Os cursos têm certificado?</h3>
+      <p>Sim, todos os cursos oferecem certificado de conclusão.</p>
+    </div>
+    <div class="faq-card">
+      <h3>Preciso instalar algum software?</h3>
+      <p>Apenas um navegador moderno e um editor de texto, como o VS Code.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 5. Rodapé -->
+
+      <footer>
+        <p>&copy; 2025 Meu Site de Cursos - Todos os direitos reservados</p>
+      </footer>
+
+
 </body>
-</html>
